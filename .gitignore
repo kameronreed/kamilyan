@@ -1,0 +1,45 @@
+# Dependencies
+website/node_modules/
+
+# Package manager
+website/.pnp
+website/.pnp.*
+website/.yarn/*
+!website/.yarn/patches
+!website/.yarn/plugins
+!website/.yarn/releases
+!website/.yarn/versions
+
+# Testing
+website/coverage/
+
+# Next.js
+website/.next/
+website/out/
+
+# Production
+website/build/
+
+# Environment files
+website/.env*
+!.env.example
+
+# Vercel
+website/.vercel/
+
+# TypeScript
+website/next-env.d.ts
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
