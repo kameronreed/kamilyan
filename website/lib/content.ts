@@ -1,20 +1,41 @@
 export const services = [
   {
-    title: "Commerce Transformation",
+    title: "Digital Commerce Strategy",
     description:
-      "SAP Commerce Cloud implementations, migrations, upgrades, and modernization initiatives.",
+      "Understand your current digital commerce landscape, uncover opportunities for growth, and define a strategic direction that aligns customer needs with business objectives.",
+    capabilities: [
+      "Current-State Assessment",
+      "Commerce Site Audit",
+      "Customer Journey Assessment",
+      "Platform Strategy & Selection",
+      "Strategic Direction",
+    ],
     accent: "teal" as const,
   },
   {
-    title: "Customer Experience (CX)",
+    title: "Technology Transformation",
     description:
-      "Customer journey optimization, process alignment, and experience improvements.",
+      "Design the technology, customer experience, and operating model needed to transform strategy into measurable business outcomes.",
+    capabilities: [
+      "Enterprise Architecture",
+      "Customer Experience Design",
+      "Platform Modernization",
+      "AI Readiness",
+      "Transformation Blueprint",
+    ],
     accent: "green" as const,
   },
   {
-    title: "Managed Services",
+    title: "Executive Advisory",
     description:
-      "Support, enhancements, platform maintenance, and continuous improvement.",
+      "Guide executive leadership through strategic decision-making, organizational alignment, and transformation planning to ensure successful business outcomes.",
+    capabilities: [
+      "Strategic Options",
+      "Business Case Development",
+      "Scope Definition",
+      "Release Sequencing",
+      "Transformation Roadmap",
+    ],
     accent: "teal" as const,
   },
 ];
