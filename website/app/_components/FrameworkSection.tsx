@@ -1,31 +1,31 @@
 const stages = [
   {
     number: "01",
-    title: "Current-State Audit",
+    title: "Discover",
     question: "Where are we today?",
     description:
-      "Assess the organization's technology landscape, delivery maturity, architecture, processes, AI readiness, and operational capabilities.",
+      "Uncover the realities of your current digital commerce landscape by evaluating technology, customer experience, business goals, organizational readiness, opportunities, and constraints.",
   },
   {
     number: "02",
-    title: "Commerce Platform & Capability Assessment",
+    title: "Define",
     question: "Do we have the right foundation?",
     description:
-      "Evaluate platform fit, scalability, capability gaps, modernization opportunities, and business alignment.",
+      "Evaluate platform fit, scalability, capability gaps, modernization opportunities, and business alignment to define the right foundation for future growth.",
   },
   {
     number: "03",
-    title: "Future-State Strategy",
+    title: "Design",
     question: "Where do we want to go?",
     description:
-      "Define the future vision, target capabilities, operating model considerations, customer experience goals, AI opportunities, and strategic direction.",
+      "Develop a future-state strategy that defines target capabilities, customer experiences, AI opportunities, and the transformation blueprint for tomorrow's business.",
   },
   {
     number: "04",
-    title: "Transformation Roadmap",
+    title: "Deliver",
     question: "How do we get there?",
     description:
-      "Translate strategy into a practical, prioritized roadmap that sequences initiatives and prepares the organization for execution.",
+      "Translate the transformation blueprint into a practical, prioritized roadmap that sequences initiatives and prepares your organization for execution.",
   },
 ];
 
@@ -82,9 +82,9 @@ export default function FrameworkSection() {
             The Kamilyan Advisory Framework
           </h2>
           <p className="mx-auto max-w-2xl text-base leading-relaxed text-zinc-500">
-            Successful transformation begins with an honest understanding of
-            today&rsquo;s reality. Only then can an organization define a clear
-            strategy and sequence a roadmap built for execution—not aspiration.
+            Every successful transformation follows a structured journey—from
+            understanding today&rsquo;s reality to designing tomorrow&rsquo;s
+            capabilities and delivering a practical roadmap for execution.
           </p>
         </header>
 
