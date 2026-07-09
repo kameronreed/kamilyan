@@ -1,31 +1,44 @@
-import { differentiators } from "@/lib/content";
+import { principles } from "@/lib/content";
+import PrincipleCard from "./PrincipleCard";
 
 export default function WhyKamilyan() {
   return (
     <section id="why" className="bg-white px-6 py-20 lg:px-16">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-12 text-4xl font-bold text-zinc-900">Why Kamilyan</h2>
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {differentiators.map((item) => (
-            <li
-              key={item}
-              className="flex items-start gap-3 rounded-xl border border-zinc-100 bg-zinc-50 p-5"
-            >
-              <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#1FA7A0]">
-                <svg
-                  className="h-3 w-3 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={3}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                </svg>
-              </span>
-              <span className="text-sm font-medium text-zinc-700">{item}</span>
-            </li>
+
+        {/* Section Header */}
+        <header className="mb-12 lg:text-center">
+          <p className="mb-3 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-[#1FA7A0]">
+            Our Guiding Principles
+          </p>
+
+          <h2 className="mb-5 text-4xl font-bold tracking-tight text-zinc-900 lg:text-5xl">
+            Why Kamilyan
+          </h2>
+
+          <p className="mx-auto max-w-2xl text-base leading-relaxed text-zinc-500">
+            Five principles that guide every recommendation, every engagement, and every transformation.
+          </p>
+        </header>
+
+        {/* Principles Grid */}
+        <div className="grid gap-6 md:grid-cols-2">
+          {principles.slice(0, 4).map((principle) => (
+            <PrincipleCard
+              key={principle.title}
+              title={principle.title}
+              description={principle.description}
+            />
           ))}
-        </ul>
+        </div>
+
+        <div className="mx-auto mt-6 max-w-xl">
+          <PrincipleCard
+            title={principles[4].title}
+            description={principles[4].description}
+          />
+        </div>
+
       </div>
     </section>
   );

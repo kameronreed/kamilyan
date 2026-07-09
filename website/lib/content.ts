@@ -40,12 +40,32 @@ export const services = [
   },
 ];
 
-export const differentiators = [
-  "Experienced SAP Commerce specialists",
-  "Global delivery capabilities",
-  "Functional and technical leadership",
-  "AI-enabled delivery acceleration",
-  "Lean consulting model with enterprise expertise",
+export const principles = [
+  {
+    title: "Independent by Design",
+    description:
+      "Technology recommendations should serve your business—not a software vendor or implementation partner.",
+  },
+  {
+    title: "From Strategy to Execution",
+    description:
+      "Every recommendation is shaped by real-world delivery experience, ensuring your strategy is practical, actionable, and ready for implementation.",
+  },
+  {
+    title: "Commerce is Our Discipline",
+    description:
+      "Digital commerce isn't one of many services we offer—it's our area of expertise.",
+  },
+  {
+    title: "Executive Clarity",
+    description:
+      "Complex transformation requires clear decisions, aligned priorities, and practical guidance.",
+  },
+  {
+    title: "Clarity Before Commitment",
+    description:
+      "Every engagement culminates in a practical transformation roadmap that gives leadership the clarity and confidence to move forward.",
+  },
 ];
 
 export const industries = [

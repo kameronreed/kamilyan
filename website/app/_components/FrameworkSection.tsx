@@ -36,7 +36,7 @@ function StageContent({ stage, align }: { stage: Stage; align: Align }) {
   const isRight = align === "right";
   return (
     <div
-      className={`max-w-sm py-14 ${isRight ? "ml-auto text-right" : "text-left"}`}
+      className={`max-w-sm py-10.5 ${isRight ? "ml-auto text-right" : "text-left"}`}
     >
       <p
         className={`mb-3 font-mono text-xs font-semibold tracking-[0.2em] text-[#1FA7A0]`}
@@ -74,7 +74,7 @@ export default function FrameworkSection() {
       <div className="mx-auto max-w-7xl">
 
         {/* ── Section header ── */}
-        <header className="mb-20 lg:text-center">
+        <header className="mb-16 lg:text-center">
           <p className="mb-3 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-[#1FA7A0]">
             Our Approach
           </p>
