@@ -21,14 +21,14 @@ export default function ContactForm() {
       <div className="mx-auto max-w-3xl">
         {/* Header */}
         <div className="mb-10">
-          <p className="mb-2 text-sm font-bold uppercase tracking-widest text-[#1FA7A0]">
+          <p className="mb-3 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-[#1FA7A0]">
             Get in Touch
           </p>
           <h2 className="text-4xl font-bold text-zinc-900">
             Schedule a Consultation
           </h2>
           <p className="mt-3 text-zinc-500">
-            Tell us about your project and we&apos;ll be in touch within one business day.
+            Tell us about your project and we&apos;ll be in touch soon.
           </p>
         </div>
 
