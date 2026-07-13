@@ -2,7 +2,7 @@ export const services = [
   {
     title: "Digital Commerce Strategy",
     description:
-      "Understand your current digital commerce landscape, uncover opportunities for growth, and define a strategic direction that aligns customer needs with business objectives.",
+      "Assess your current commerce capabilities and define a strategy that aligns customer experience with business objectives.",
     capabilities: [
       "Current-State Assessment",
       "Commerce Site Audit",
@@ -20,15 +20,15 @@ export const services = [
       "Enterprise Architecture",
       "Customer Experience Design",
       "Platform Modernization",
-      "AI Readiness",
-      "Transformation Blueprint",
+      "AI Readiness & Enablement",
+      "Future-State Blueprint",
     ],
     accent: "green" as const,
   },
   {
     title: "Executive Advisory",
     description:
-      "Guide executive leadership through strategic decision-making, organizational alignment, and transformation planning to ensure successful business outcomes.",
+      "Guide executive leadership through strategic decision-making, business and technology alignment, and transformation planning to ensure successful business outcomes.",
     capabilities: [
       "Strategic Options",
       "Business Case Development",
@@ -69,13 +69,14 @@ export const principles = [
 ];
 
 export const industries = [
-  "Healthcare",
   "Manufacturing",
-  "Consumer Products",
-  "Distribution",
   "Furniture",
-  "B2B Commerce",
-  "B2C Commerce",
+  "Healthcare",
+  "Life Sciences",
+  "Consumer Products",
+  "Wholesale Distribution",
+  "Utilities",
+  "Aerospace",
 ];
 
 export const navLinks = [
